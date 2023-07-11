@@ -4,5 +4,8 @@ class Bus:
         self.destination = destination
         self.passengers = []
 
-    def drive_method(self):
+    def drive(self):
         return "Vroom vroom"
+
+    def passenger_count(self):
+        return len(self.passengers)
