@@ -18,9 +18,9 @@ print(f"The {bus.route_number} bus has left the station. {bus.drive()}.")
 starting_passenger_count = bus.passenger_count()
 print(f"There are initially {starting_passenger_count} passengers on the bus.")
 
-# bus.pick_up(person_1)
-# print(f"The {bus.route_number} bus picked up {bus.passengers[0].name}.")
-# print(f"There are now {bus.passenger_count()} passengers on the bus.")
+bus.pick_up(person_1)
+print(f"The {bus.route_number} bus picked up {bus.passengers[0].name}.")
+print(f"There are now {bus.passenger_count()} passengers on the bus.")
 
 # bus.drop_off(person_1)
 # print(f"The {bus.route_number} bus dropped off {person_1.name}.")
